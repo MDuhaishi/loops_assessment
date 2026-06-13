@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.env
+*.env.local
+
+# Generated data (keep demo data, ignore live extractions)
+data/raw/
+data/processed/
+data/exports/
+
+# But keep demo fixtures
+!data/demo/
+
+# PDF rendered pages (can be large)
+data/raw/menu_pages/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+client/dist/
+
+# TypeScript build info
+*.tsbuildinfo
